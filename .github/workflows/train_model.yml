@@ -24,7 +24,7 @@ jobs:
       with:
           azure_credentials: ${{ secrets.AZURE_CREDENTIALS }}
     
-    # Submit a training run to the Azure Machine Learning
+    # Submit a training run to the Azure Machine Learning-
     - name: Submit training run
       id: aml_run
       uses: Azure/aml-run@v1
